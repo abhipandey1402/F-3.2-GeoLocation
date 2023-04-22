@@ -21,10 +21,10 @@ let whiteContainer = document.getElementById('whiteContainer');
 fetchButton.addEventListener('click', showWeather);
 
 function showWeather() {
-    showLocation();
-    setTimeout(() => {
+     showLocation();
+     setTimeout(()=>{
         APICall()
-    }, 1000);
+     }, 2000);
 }
 
 function showLocation() {
