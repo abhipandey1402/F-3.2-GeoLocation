@@ -66,7 +66,7 @@ async function APICall() {
     var long = parseFloat(longitude.innerText.split(" ")[1]);
 
     //fetching data by API call where lat and long is given dynamically.
-    let response = await fetch(`http://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${long}&&appid=8f3a65395ce21843d5f2d0e9056240ef`);
+    let response = await fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${long}&&appid=8f3a65395ce21843d5f2d0e9056240ef`);
     let data = await response.json();
 
     //making white container block to display on viewport
