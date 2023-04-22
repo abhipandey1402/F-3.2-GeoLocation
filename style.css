@@ -1,0 +1,85 @@
+body{
+    margin: 0px;
+    max-width: 100%;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+}
+#mainContainer{
+    width: 100vw;
+}
+
+#blackContainer{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+#text > h1{
+    font-size: 6vw;
+    font-weight: 700;
+    line-height: 0.1vw;
+}
+
+#fetchDiv > #fetchButton{
+    width: 20vw;
+    height: 3vw;
+    background-color: #FFFFFF;
+    border: none;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+}
+
+#latLong{
+    margin-left: -70vw;
+    font-size: 2vw;
+    color: white;
+    display: none;
+}
+
+#map{
+    width: 75vw;
+    height: 35vw;
+    margin-bottom: 5vw;
+    margin-top: 2vw;
+    display: none;
+}
+
+#whiteContainer{
+    width: 100%;
+    height: auto;
+    background-color: #FFFFFF;
+    color: black;
+    display: none;
+}
+
+#whiteContainer > h1{
+    font-weight: 700;
+    font-size: 5vw;
+    padding: 2vw;
+    line-height: 0.1vw;
+}
+
+#weatherData{
+    width: 95%;
+    height: auto;
+    border: 0.1vw solid black;
+    margin: 2.5vw;
+    display: flex;
+    flex-direction: column;
+}
+
+#weatherData > span{
+    padding: 1vw;
+    font-size: 2vw;
+}
+
+
+
+
